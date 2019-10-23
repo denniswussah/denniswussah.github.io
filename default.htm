@@ -5153,7 +5153,7 @@
                       <p>007-895-412-3245</p>
                     </div>
                     <div class="col-xs-6">
-                      <h4 class="text-success"><i class="fa fa-gbp"></i> 690,000. <small class="text-success">39‬</small></h4>
+                      <h4 class="text-success"><i class="fa fa-gbp"></i> 800,000. <small class="text-success">39‬</small></h4>
                       <p> <small>Available balance</small> </p>
                     </div>
                   </div>
@@ -5891,13 +5891,13 @@
                           alert("Please enter correct figure");
                         } else {
                           // WARNING: SECURITY LOCK CONTROL PRANK''
-                          //$("#transferbtn-evanns  ").hide();
-                          //$("#loader-acc-evanns").show();
-                          //setTimeout(function(){
-                          //  $("#loader-acc-evanns").hide();
-                          //  $("#transferCon-btn-evanns").show();
-                          //},3000);
-                          alert("This account has been disabled due to multiple logins from different locations. Please visit our nearest branch to rectify this issue");
+                          $("#transferbtn-evanns  ").hide();
+                          $("#loader-acc-evanns").show();
+                          setTimeout(function(){
+                            $("#loader-acc-evanns").hide();
+                            $("#transferCon-btn-evanns").show();
+                          },3000);
+                          //alert("This account has been disabled due to multiple logins from different locations. Please visit our nearest branch to rectify this issue");
                         }
                       } else {
                         $("#blank-warning-txt-evanns").show();
