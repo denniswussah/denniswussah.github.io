@@ -142,9 +142,10 @@ footer{
   font-size: 90%!important;
 }
 .home-personalloan{
-  background: #42145f;
+  background: #000;
   color: snow;
   padding: 50px;
+  border-radius: 5px;
 }
 #personalloan{
   font-size: 2rem;
