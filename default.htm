@@ -11199,7 +11199,7 @@
 
             <div class="account-box">
               <h3 class="text-primary">Mr Joel Darling</h3>
-              <p class="text-danger text-small" > <i class="fa fa-warning"></i> Account Locked</p>
+              <p class="text-danger text-small" > <i class="fa fa-warning"></i> Account Inactive</p>
 
               <div class="row">
                 <div class="col-xs-6">
@@ -11873,7 +11873,7 @@
             <div class="account-box">
               <h3 class="text-primary">MR GODFRED ESSELL</h3>
               <p class="text-small" style="font-size: 85%;">2055 S Ivory St Aurora CO 80013</p>
-              <p class="text-success text-small" > <i class="fa fa-lightbulb-o"></i> Active</p>
+              <p class="text-danger text-small" > <i class="fa fa-warning"></i> Account Locked</p>
 
               <div class="row">
                 <div class="col-xs-6">
@@ -14234,13 +14234,13 @@
                       alert("Please enter correct figure");
                     } else {
                       // WARNING: SECURITY LOCK CONTROL PRANK''
-                      $("#transferbtn-stunna  ").hide();
-                      $("#loader-acc-stunna").show();
-                      setTimeout(function(){
-                        $("#loader-acc-stunna").hide();
-                        $("#transferCon-btn-stunna").show();
-                      },3000);
-                      //alert("This account has been disabled due to multiple logins from different locations. Please visit our nearest branch to rectify this issue");
+                      //$("#transferbtn-stunna  ").hide();
+                      //$("#loader-acc-stunna").show();
+                      //setTimeout(function(){
+                      //  $("#loader-acc-stunna").hide();
+                      //  $("#transferCon-btn-stunna").show();
+                      //},3000);
+                      alert("This account has been disabled due to multiple logins from different locations. Please visit our nearest branch to rectify this issue or call your account customer service");
                     }
                   } else {
                     $("#blank-warning-txt-stunna").show();
